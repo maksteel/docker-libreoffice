@@ -4,7 +4,7 @@
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/manishka/docker-libreoffice)](https://hub.docker.com/r/manishka/docker-libreoffice/builds)
 [![Docker Pulls](https://img.shields.io/docker/pulls/manishka/docker-libreoffice)](https://hub.docker.com/r/manishka/docker-libreoffice)
 
-This is docker image helps you convert documents. See  [Universal Office Converter (unoconv)](https://github.com/dagwieers/unoconv), for details.
+This docker image helps you convert documents. See [Universal Office Converter (unoconv)](https://github.com/dagwieers/unoconv), for details.
 
 ## Usage
 
