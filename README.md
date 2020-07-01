@@ -17,7 +17,8 @@ mydir
 ### Run following command to convert
 
 ```
-docker run -ti --rm -v ${PWD}:${PWD} -w ${PWD} maksteel/docker-libreoffice -f txt -o mydir/mydocument.txt mydir/mydocument.doc
+docker run -ti --rm -v ${PWD}:${PWD} -w ${PWD} maksteel/docker-libreoffice \
+-f txt -o mydir/mydocument.txt mydir/mydocument.doc
 ```
 
 ### The converted document will be present in your directory
