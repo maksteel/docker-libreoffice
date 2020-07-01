@@ -1,5 +1,9 @@
 # LibreOffice in Docker with unoconv
 
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/manishka/docker-libreoffice)](https://hub.docker.com/r/manishka/docker-libreoffice/builds)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/manishka/docker-libreoffice)](https://hub.docker.com/r/manishka/docker-libreoffice/builds)
+[![Docker Pulls](https://img.shields.io/docker/pulls/manishka/docker-libreoffice)](https://hub.docker.com/r/manishka/docker-libreoffice)
+
 This is docker image helps you convert documents. See  [Universal Office Converter (unoconv)](https://github.com/dagwieers/unoconv), for details.
 
 ## Usage
@@ -17,7 +21,7 @@ mydir
 ### Run following command to convert
 
 ```
-docker run -ti --rm -v ${PWD}:${PWD} -w ${PWD} maksteel/docker-libreoffice \
+docker run -ti --rm -v ${PWD}:${PWD} -w ${PWD} manishka/docker-libreoffice \
 -f txt -o mydir/mydocument.txt mydir/mydocument.doc
 ```
 
